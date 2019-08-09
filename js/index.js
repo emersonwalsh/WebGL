@@ -9,6 +9,8 @@ myApp.controller('globeGL', function($scope, $http) {
     // Variables
     $scope.globeGL.selectedTexture = 'Land Surface Temperature';
     $scope.globeGL.selectedTextureImg = './textures/land-surface-temperature.jpeg';
+    $scope.globeGL.selectedDescription = 'Land surface temperature is how hot the ground feels to the touch. If you want to know whether temperatures at some place at a specific time of year are unusually warm or cold, you need to compare them to the average temperatures for that place over many years. These maps show the average weekly or monthly daytime land surface temperatures for 2001-2010.';
+
     $scope.globeGL.textures = [
         {
             name: 'Land Surface Temperature',
@@ -66,6 +68,8 @@ myApp.controller('globeGL', function($scope, $http) {
     function changeTexture(texture) {
         $scope.globeGL.selectedTexture = texture.name
         $scope.globeGL.selectedTextureImg = texture.textureImg;
+        $scope.globeGL.selectedDescription = texture.description;
+
         paint();
     }
 

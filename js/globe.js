@@ -1,16 +1,3 @@
-/**
- * dat.globe Javascript WebGL Globe Toolkit
- * https://github.com/dataarts/webgl-globe
- *
- * Copyright 2011 Data Arts Team, Google Creative Lab
- *
- * Licensed under the Apache License, Version 2.0 (the 'License');
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- */
-
 var DAT = DAT || {};
 
 DAT.Globe = function(container, opts) {
@@ -86,7 +73,7 @@ DAT.Globe = function(container, opts) {
   var padding = 40;
   var PI_HALF = Math.PI / 2;
 
-  var ROTATIONSPEED = 0.003;
+  var ROTATIONSPEED = 0.002;
   var k = ROTATIONSPEED;
   var f = false;
 
@@ -315,4 +302,3 @@ DAT.Globe = function(container, opts) {
   return this;
 
 };
-

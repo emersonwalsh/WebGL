@@ -30,6 +30,12 @@ body {
     user-select: none;
 }
 
+.info-selected {
+    color: #aaa;
+    text-decoration: none;
+    display: inline-block;
+}
+
 a {
     color: #aaa;
     text-decoration: none;
@@ -82,4 +88,5 @@ a:hover {
 .texture-container__items__item img {
     height: 70%;
     margin: auto 0;
+    max-width: 100%;
 }
