@@ -19,12 +19,6 @@ myApp.controller('globeGL', function($scope, $http) {
             description: 'Land surface temperature is how hot the ground feels to the touch. If you want to know whether temperatures at some place at a specific time of year are unusually warm or cold, you need to compare them to the average temperatures for that place over many years. These maps show the average weekly or monthly daytime land surface temperatures for 2001-2010.'
         },
         {
-            name: 'Sea Surface Temperature',
-            icon: './icons/sea-surface-temperature.svg',
-            textureImg: './textures/sea-surface-temperature.jpeg',
-            description: 'Sea surface temperature is the temperature of the top millimeter of the ocean\'s surface. Sea surface temperatures influence weather, including hurricanes, as well as plant and animal life in the ocean. Like Earth\'s land surface, sea surface temperatures are warmer near the equator and colder near the poles. Currents like giant rivers move warm and cold water around the world\'s oceans. Some of these currents flow on the surface, and they are obvious in sea surface temperature images. Warm ocean waters help form clouds and affect weather patterns. The sea\'s surface temperature is also correlated to the availability of tiny ocean plants, called phytoplankton. For all of these reasons scientists monitor the sea\'s surface temperature. These maps show satellite measurements of the sea\'s surface temperature for a given day, or for a span of days.'
-        },
-        {
             name: 'Cloud Fraction',
             icon: './icons/clouds.svg',
             textureImg: './textures/cloud-fraction.jpeg',
@@ -53,6 +47,12 @@ myApp.controller('globeGL', function($scope, $http) {
             icon: './icons/albedo.svg',
             textureImg: './textures/albedo.jpeg',
             description: 'When sunlight reaches the Earth’s surface, some of it is absorbed and some is reflected. The relative amount (ratio) of light that a surface reflects compared to the total sunlight that falls on it is called albedo. Surfaces that reflect a lot of the light falling on them are bright, and they have a high albedo. Surfaces that don’t reflect much light are dark, and they have a low albedo. Snow has a high a albedo, and forests have a low albedo.'
+        },
+        {
+            name: 'Sea Surface Temperature',
+            icon: './icons/sea-surface-temperature.svg',
+            textureImg: './textures/sea-surface-temperature.jpeg',
+            description: 'Sea surface temperature is the temperature of the top millimeter of the ocean\'s surface. Sea surface temperatures influence weather, including hurricanes, as well as plant and animal life in the ocean. Like Earth\'s land surface, sea surface temperatures are warmer near the equator and colder near the poles. Currents like giant rivers move warm and cold water around the world\'s oceans. Some of these currents flow on the surface, and they are obvious in sea surface temperature images. Warm ocean waters help form clouds and affect weather patterns. The sea\'s surface temperature is also correlated to the availability of tiny ocean plants, called phytoplankton. For all of these reasons scientists monitor the sea\'s surface temperature. These maps show satellite measurements of the sea\'s surface temperature for a given day, or for a span of days.'
         },
         {
             name: 'Chlorophyll Concentration',
